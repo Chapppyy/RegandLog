@@ -1,0 +1,89 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family:
+    system-ui,
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    Roboto,
+    Oxygen,
+    Ubuntu,
+    Cantarell,
+    "Open Sans",
+    "Helvetica Neue",
+    sans-serif;
+  background-image: url(/Registration/Images/jade.jpg);
+}
+
+.container {
+  width: 500px;
+  background-color: rgba(220, 238, 255, 0.254);
+  padding: 12px;
+  margin: 15px;
+  border-radius: 5px;
+}
+
+.names input {
+  margin: 10px;
+  padding: 12px;
+  border-radius: 5px;
+  border: 1px;
+  flex: row;
+}
+.details {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+.details input {
+  margin: 10px;
+  border-radius: 5px;
+  padding: 12px;
+  border: 1px;
+}
+
+input:hover {
+  border: 1px solid midnightblue;
+}
+.rg {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 15px;
+}
+
+.login-image {
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+.rg h3 {
+  margin: 0;
+}
+button {
+  padding: 7px;
+  border-radius: 5px;
+  background-color: rgba(13, 162, 255, 0.314);
+  color: black;
+  border: 1px solid rgb(5, 128, 205);
+  margin-top: 20px;
+  margin-bottom: 15px;
+  margin: 5px;
+}
+
+button:hover {
+  background-color: rgba(0, 170, 255, 0.575);
+}
+
+.already p {
+  margin: 12px;
+}
+.already a {
+  color: blue;
+}
